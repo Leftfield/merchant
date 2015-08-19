@@ -1,5 +1,5 @@
 
-from django.conf.urls.defaults import *
+from django.conf.urls import *
 from billing import get_integration
 
 google_checkout_obj = get_integration("google_checkout")
